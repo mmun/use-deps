@@ -1,0 +1,33 @@
+{
+  "name": "use-deps",
+  "version": "0.0.1",
+  "description": "A composable React hook for expressing deep dependencies",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmun/use-deps.git"
+  },
+  "keywords": [
+    "react",
+    "react-hooks"
+  ],
+  "author": "im.mmun@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmun/use-deps/issues"
+  },
+  "homepage": "https://github.com/mmun/use-deps#readme",
+  "devDependencies": {
+    "@testing-library/react-hooks": "^2.0.1",
+    "jest": "^24.9.0",
+    "react-fast-compare": "^2.0.4",
+    "react-test-renderer": "^16.9.0"
+  },
+  "dependencies": {
+    "react": "^16.9.0"
+  }
+}
