@@ -48,7 +48,6 @@ The second argument to useDeps is optional and defaults to `Object.is`.
 
 ## Prior art
 
-Check out https://github.com/kentcdodds/use-deep-compare-effect for a similar approach.
+Check out https://github.com/kentcdodds/use-deep-compare-effect and https://github.com/streamich/react-use/blob/master/src/useDeepCompareEffect.ts for a similar approach.
 
-This difference between these libraries is that this library can be used with an equality function and any dependency array-accepting hook, at the cost of some extra verbosity.
-
+The main difference is that `useDeps` can be used with any equality function and any dependency array-accepting hook at the cost of being a little more verbose.
